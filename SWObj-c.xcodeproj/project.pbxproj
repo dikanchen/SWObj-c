@@ -15,6 +15,8 @@
 		CECCFDFD2046107000238B7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECCFDFB2046107000238B7D /* LaunchScreen.storyboard */; };
 		CECCFE002046107000238B7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCFDFF2046107000238B7D /* main.m */; };
 		CECCFE0A2046107000238B7D /* SWObj_cTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCFE092046107000238B7D /* SWObj_cTests.m */; };
+		CECCFE16204620A300238B7D /* NetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCFE15204620A300238B7D /* NetworkService.m */; };
+		CECCFE1920464AA100238B7D /* SWcharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCFE1820464AA100238B7D /* SWcharacters.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		CECCFE052046107000238B7D /* SWObj-cTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SWObj-cTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECCFE092046107000238B7D /* SWObj_cTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWObj_cTests.m; sourceTree = "<group>"; };
 		CECCFE0B2046107000238B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECCFE14204620A300238B7D /* NetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkService.h; sourceTree = "<group>"; };
+		CECCFE15204620A300238B7D /* NetworkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkService.m; sourceTree = "<group>"; };
+		CECCFE1720464AA100238B7D /* SWcharacters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWcharacters.h; sourceTree = "<group>"; };
+		CECCFE1820464AA100238B7D /* SWcharacters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWcharacters.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,10 @@
 				CECCFDFE2046107000238B7D /* Info.plist */,
 				CECCFDFF2046107000238B7D /* main.m */,
 				CECCFDF62046107000238B7D /* SWObj_c.xcdatamodeld */,
+				CECCFE14204620A300238B7D /* NetworkService.h */,
+				CECCFE15204620A300238B7D /* NetworkService.m */,
+				CECCFE1720464AA100238B7D /* SWcharacters.h */,
+				CECCFE1820464AA100238B7D /* SWcharacters.m */,
 			);
 			path = "SWObj-c";
 			sourceTree = "<group>";
@@ -209,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECCFDF82046107000238B7D /* SWObj_c.xcdatamodeld in Sources */,
+				CECCFE1920464AA100238B7D /* SWcharacters.m in Sources */,
 				CECCFDF22046107000238B7D /* ViewController.m in Sources */,
+				CECCFE16204620A300238B7D /* NetworkService.m in Sources */,
 				CECCFE002046107000238B7D /* main.m in Sources */,
 				CECCFDEF2046107000238B7D /* AppDelegate.m in Sources */,
 			);
